@@ -12,17 +12,18 @@ Risk Attribution of a portfolio with Volatility Risk Analysis.
 \tabular{ll}{
 Package: \tab PortRisk\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2014-06-05\cr
+Version: \tab 1.1.0\cr
+Date: \tab 2015-10-31\cr
 License: \tab GPL-2 | GPL-3\cr
-Depends: \tab zoo, R (>= 3.0.2)\cr
+Depends: \tab R (>= 3.0.0)\cr
+Imports: \tab \code{zoo}, \code{tseries}, \code{MCMCpack}, \code{copula}, \code{MASS}
 }
 This package includes functions to compute the volatility risk attributes such as Volatility, Portfolio Volatility, MCTR, CCTR etc.
 }
 \author{
-Tamal Kanti Panja, Sourish Das, Rajeswaran Viswanathan.
+Sourish Das [aut, cre], Tamal Kanti Panja [aut].
 
-Maintainer: Tamal Kanti Panja <tamal.tkp@gmail.com>
+Maintainer: Sourish Das <sourish.das@gmail.com>
 }
 
 % \references{
